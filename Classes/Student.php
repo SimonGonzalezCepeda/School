@@ -1,5 +1,6 @@
 <?php
 
+namespace Com\Iesebre\Dam2\simongonzalez\Persones;
 
 class Student extends People
 {

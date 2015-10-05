@@ -1,9 +1,7 @@
 <?php
 
+namespace Com\Iesebre\Dam2\simongonzalez\Persones;
 
-/**
- * Class Teacher
- */
 class Teacher extends People
 {
     /* Obte les característiques de Worker. */
