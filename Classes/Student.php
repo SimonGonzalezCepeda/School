@@ -1,7 +1,7 @@
 <?php
 
 
-class Student extends People Trait
+class Student extends People
 {
     /* Per a poder fer servir els atributs de Worker. */
     use Worker;
