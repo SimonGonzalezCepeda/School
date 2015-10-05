@@ -1,7 +1,7 @@
 <?php
 
 
-class Worker extends People
+trait Worker
 {
     public $salary;
 }
