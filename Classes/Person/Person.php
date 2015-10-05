@@ -2,7 +2,7 @@
 
 namespace Com\Iesebre\Dam2\simongonzalez\Persones;
 
-class People
+class Person
 {
     /**
      * Especificar tipus d'individu que s'aplica a la funció render.

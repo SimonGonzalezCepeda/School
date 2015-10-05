@@ -1,8 +1,8 @@
 <?php
 
-namespace Com\Iesebre\Dam2\simongonzalez\Persones;
+namespace Com\Iesebre\Dam2\simongonzalez\Person;
 
-class Student extends People
+class Student extends Person
 {
     /* Per a poder fer servir els atributs de Worker. */
     use Worker;
