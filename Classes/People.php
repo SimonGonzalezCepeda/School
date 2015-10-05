@@ -3,6 +3,7 @@
 
 class People
 {
+    protected  $type = "La persona";
     /**
      * DNI
      * @var
@@ -132,6 +133,6 @@ class People
      */
     public function render()
     {
-        echo "El estudiant té el nom" . $this->getGivenName();
+        echo "{$this->type} té el nom" . $this->getGivenName();
     }
 }
