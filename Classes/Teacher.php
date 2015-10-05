@@ -58,5 +58,13 @@ class Teacher extends People
         $this->titular = $titular;
     }
 
+    /**
+     * Print name and salary in the screen.
+     */
+    public function render()
+    {
+        $this->type = "El profesor"; // type refers to the first segment of the render string.
+        parent::render() . " i cobra " . $this->salary;
+    }
 
 }

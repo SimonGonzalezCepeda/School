@@ -3,6 +3,10 @@
 
 class People
 {
+    /**
+     * Especificar tipus d'individu que s'aplica a la funció render.
+     * @var string
+     */
     protected  $type = "La persona";
     /**
      * DNI
