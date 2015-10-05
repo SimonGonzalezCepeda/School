@@ -7,5 +7,10 @@
             "email": "simongonzalez@iesebre.com"
         }
     ],
+    "autoload": {
+        "psr-4" : {
+            "Com\\Iesebre\\Dam2\\simongonzalez\\" : "Classes"
+        }
+    },
     "require": {}
 }
