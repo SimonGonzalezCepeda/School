@@ -1,6 +1,6 @@
 <?php
 
-namespace Com\Iesebre\Dam2\simongonzalez\Persones;
+namespace Com\Iesebre\Dam2\simongonzalez\Person;
 
 trait Worker
 {
