@@ -1,0 +1,11 @@
+{
+    "name": "sylver/school",
+    "description": "Prova",
+    "authors": [
+        {
+            "name": "SimonGonzalezCepeda",
+            "email": "simongonzalez@iesebre.com"
+        }
+    ],
+    "require": {}
+}

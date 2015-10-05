@@ -1,6 +1,6 @@
 <?php
 
-namespace Com\Iesebre\Dam2\simongonzalez\Persones;
+namespace Com\Iesebre\Dam2\simongonzalez\Person;
 
 class Person
 {
@@ -8,7 +8,7 @@ class Person
      * Especificar tipus d'individu que s'aplica a la funció render.
      * @var string
      */
-    protected  $type = "La persona";
+    public $type = "La persona";
     /**
      * DNI
      * @var
@@ -138,6 +138,6 @@ class Person
      */
     public function render()
     {
-        echo "{$this->type} té el nom" . $this->getGivenName();
+        echo "{$this->type} té el nom " . $this->getGivenName();
     }
 }
