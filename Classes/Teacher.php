@@ -1,8 +1,13 @@
 <?php
 
 
+/**
+ * Class Teacher
+ */
 class Teacher extends People
 {
+    /* Obte les característiques de Worker. */
+    use Worker;
     /**
      * Per saber si es un professor del centre o no.
      * @var
