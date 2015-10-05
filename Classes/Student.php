@@ -13,13 +13,4 @@ class Student extends People
         $this->dual = $dual;
     }
 
-    public function render()
-    {
-        if($this->dual){
-            echo "El estudiant té el nom" . $this->getGivenName() . "i te el següent salari:" . $this->salary;
-        } else {
-            echo "El estudiant té el nom" . $this->getGivenName();
-        }
-
-    }
 }

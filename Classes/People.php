@@ -126,4 +126,12 @@ class People
     {
         $this->sn2 = $sn2;
     }
+
+    /**
+     * It will make appear the name of the People.
+     */
+    public function render()
+    {
+        echo "El estudiant té el nom" . $this->getGivenName();
+    }
 }
