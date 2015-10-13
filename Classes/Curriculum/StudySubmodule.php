@@ -16,11 +16,6 @@ class StudySubmodule extends StudyModule{
     /**
      * @var
      */
-    private $students;
-
-    /**
-     * @var
-     */
     private $hours;
 
     /**
@@ -34,7 +29,7 @@ class StudySubmodule extends StudyModule{
     {
         $this->submodule = $submodule;
         $this->getTeacher()->teacher = $teacher;
-        $this->students = $students;
+        $this->getStudents()->students = $students;
         $this->hours = $hours;
     }
 
