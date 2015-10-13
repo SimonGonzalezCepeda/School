@@ -8,6 +8,7 @@
 
 namespace Com\Iesebre\Dam2\simongonzalez\Curriculum;
 
+use Com\Iesebre\Dam2\simongonzalez\Person;
 
 class StudyModule extends Studies {
 
@@ -17,7 +18,12 @@ class StudyModule extends Studies {
      */
     private $module;
 
-    private $study;
+    /**
+     * Name of the theacher that are part of this Module.
+     * @var
+     */
+    private $teacher;
+
 
     /**
      * StudyModule constructor.
@@ -42,6 +48,22 @@ class StudyModule extends Studies {
     public function setModule($module)
     {
         $this->module = $module;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTeacher()
+    {
+        return $this->teacher;
+    }
+
+    /**
+     * @param mixed $teacher
+     */
+    public function setTeacher($teacher)
+    {
+        $this->teacher = $teacher;
     }
 
 }
