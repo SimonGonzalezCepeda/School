@@ -34,10 +34,7 @@ class ClassroomGroup{
     private $studymodules = array();
 
 
-    //
-    /// ---Getters and Setters---
-    //
-
+    /// --- Getters and Setters ---
 
     /**
      * @return array
@@ -101,8 +98,6 @@ class ClassroomGroup{
     public function setName($name)
     {
         $this->name = $name;
-    }
-
-
+    } /// --- Getters and Setters ---
 
 }
