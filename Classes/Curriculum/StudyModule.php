@@ -19,11 +19,6 @@ class StudyModule extends Studies {
 
     private $study;
 
-    public function getStudy(Studies $study)
-    {
-        $this->getStudy($study) = $studies;
-    }
-
     /**
      * StudyModule constructor.
      * @param $module
