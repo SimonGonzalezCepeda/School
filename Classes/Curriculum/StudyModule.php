@@ -9,7 +9,44 @@
 namespace Com\Iesebre\Dam2\simongonzalez\Curriculum;
 
 
-interface StudyModule
-{
+class StudyModule extends Studies {
+
+    /**
+     * The name of the module
+     * @var
+     */
+    private $module;
+
+    private $study;
+
+    public function getStudy(Studies $study)
+    {
+        $this->getStudy($study) = $studies;
+    }
+
+    /**
+     * StudyModule constructor.
+     * @param $module
+     */
+    public function __construct($module)
+    {
+        $this->module = $module;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getModule()
+    {
+        return $this->module;
+    }
+
+    /**
+     * @param mixed $module
+     */
+    public function setModule($module)
+    {
+        $this->module = $module;
+    }
 
 }
