@@ -2,68 +2,105 @@
 
 namespace Com\Iesebre\Dam2\simongonzalez\Person;
 
-class Person
-{
+class Person{
     /**
      * Especificar tipus d'individu que s'aplica a la funció render.
      * @var string
      */
-    public $type = "La persona";
+    private $type = "La persona";
     /**
      * DNI
      * @var
      */
-    public $personalId;
+    private $personalId;
     /**
      * Nom
      * @var
      */
-    public $givenName;
+    private $givenName;
     /**
      * Cognom 1
      * @var
      */
-    public $sn1;
+    private $sn1;
     /**
      * Cognom 2
      * @var
      */
-    public $sn2;
+    private $sn2;
 
     /**
      * @var
      */
-    public $email;
+    private $email;
 
     /**
      * @var
      */
-    public $postalAddress;
+    private $postalAddress;
 
     /**
      * @var
      */
-    public $localCity;
+    private $localCity;
 
     /**
      * @var
      */
-    public $postalCode;
+    private $postalCode;
 
     /**
      * @var
      */
-    public $state;
+    private $state;
 
     /**
      * @var
      */
-    public $country;
+    private $country;
 
     /**
      * @var
      */
-    public $nationality;
+    private $nationality;
+
+    /**
+     * Person constructor.
+     * @param string $type
+     * @param $personalId
+     * @param $givenName
+     * @param $sn1
+     * @param $sn2
+     * @param $email
+     * @param $postalAddress
+     * @param $localCity
+     * @param $postalCode
+     * @param $state
+     * @param $country
+     * @param $nationality
+     */
+    public function __construct($type, $personalId, $givenName, $sn1, $sn2, $email, $postalAddress, $localCity, $postalCode, $state, $country, $nationality)
+    {
+        $this->type = $type;
+        $this->personalId = $personalId;
+        $this->givenName = $givenName;
+        $this->sn1 = $sn1;
+        $this->sn2 = $sn2;
+        $this->email = $email;
+        $this->postalAddress = $postalAddress;
+        $this->localCity = $localCity;
+        $this->postalCode = $postalCode;
+        $this->state = $state;
+        $this->country = $country;
+        $this->nationality = $nationality;
+    }
+
+
+
+    //
+    /// --- Getters and Setters
+    //
+
 
     /**
      * @return mixed

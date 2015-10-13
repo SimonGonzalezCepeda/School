@@ -11,7 +11,9 @@ class Student extends Person
      * Bolean to know if the Studen win money or not.
      * @var null
      */
-    public $dual;
+    private $dual = false;
+
+    private $classRoomGroup;
 
     /**
      * This function puts Student dual off as a default but it can be change by calling it.
@@ -19,7 +21,9 @@ class Student extends Person
      */
     public function __construct($dual=null)
     {
-        $this->dual = $dual;
+        $this->type = "estudiant";
+        if($dual != null)
+            $this->dual;
     }
 
     /**
@@ -27,7 +31,7 @@ class Student extends Person
      */
     public function render (){
         $this->type = "L'estudiant"; // type refers to the first segment of the render string.
-        if ($dual){
+        if ($this->dual){
             parent::render() . " i cobra " . $this->salary;
         } else {
             parent::render();
